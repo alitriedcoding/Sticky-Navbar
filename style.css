@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  background-image: url(polytichnicimage.jpeg);
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: red;
+}
+
+.navebar {
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  transition: background-color 0.9s;
+}
+.navebar ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 10px;
+}
+.navebar ul li a {
+  text-decoration: none;
+}
+.navebar ul li {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navebar ul li:hover {
+  background-color: #5a5656;
+  color: red;
+}
+
+.navebar ul li a:hover {
+  color: red;
+}
+
+.paragraph {
+  margin: 40px 5%;
+}
+
+/* this active is for changing color of navebar */
+.active {
+  background-color: black;
+}
+.active a {
+  color: white;
+}
